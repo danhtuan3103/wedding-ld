@@ -73,6 +73,10 @@
 
   transform: translateY(-50%);
   z-index: 100;
+
+  &:hover {
+    opacity: 0.8;
+  }
 }
 
 .pre-icon {
@@ -80,4 +84,8 @@
 }
 .next-icon {
   right: 2px;
+}
+
+.close-icon:hover {
+  opacity: 0.8;
 }

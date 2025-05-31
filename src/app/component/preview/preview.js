@@ -50,7 +50,7 @@ function Preview({ data, onClose, index }) {
           imgs.length
         }`}</span>
 
-        <CgClose className={cx("icon")} onClick={onClose} />
+        <CgClose className={cx("icon", "close-icon")} onClick={onClose} />
       </div>
 
       <div className={cx("container")}>
@@ -146,6 +146,66 @@ function Preview({ data, onClose, index }) {
           <SwiperSlide>
             <div className={cx("img-wrapper")}>
               <img className={cx("img")} alt={"image"} src={imgs[15]?.img} />
+            </div>
+          </SwiperSlide>{" "}
+          <SwiperSlide>
+            <div className={cx("img-wrapper")}>
+              <img className={cx("img")} alt={"image"} src={imgs[16]?.img} />
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className={cx("img-wrapper")}>
+              <img className={cx("img")} alt={"image"} src={imgs[17]?.img} />
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className={cx("img-wrapper")}>
+              <img className={cx("img")} alt={"image"} src={imgs[18]?.img} />
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className={cx("img-wrapper")}>
+              <img className={cx("img")} alt={"image"} src={imgs[19]?.img} />
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className={cx("img-wrapper")}>
+              <img className={cx("img")} alt={"image"} src={imgs[20]?.img} />
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className={cx("img-wrapper")}>
+              <img className={cx("img")} alt={"image"} src={imgs[21]?.img} />
+            </div>
+          </SwiperSlide>{" "}
+          <SwiperSlide>
+            <div className={cx("img-wrapper")}>
+              <img className={cx("img")} alt={"image"} src={imgs[22]?.img} />
+            </div>
+          </SwiperSlide>{" "}
+          <SwiperSlide>
+            <div className={cx("img-wrapper")}>
+              <img className={cx("img")} alt={"image"} src={imgs[23]?.img} />
+            </div>
+          </SwiperSlide>{" "}
+          <SwiperSlide>
+            <div className={cx("img-wrapper")}>
+              <img className={cx("img")} alt={"image"} src={imgs[24]?.img} />
+            </div>
+          </SwiperSlide>{" "}
+          <SwiperSlide>
+            <div className={cx("img-wrapper")}>
+              <img className={cx("img")} alt={"image"} src={imgs[25]?.img} />
+            </div>
+          </SwiperSlide>{" "}
+          <SwiperSlide>
+            <div className={cx("img-wrapper")}>
+              <img className={cx("img")} alt={"image"} src={imgs[26]?.img} />
+            </div>
+          </SwiperSlide>{" "}
+          <SwiperSlide>
+            <div className={cx("img-wrapper")}>
+              <img className={cx("img")} alt={"image"} src={imgs[27]?.img} />
             </div>
           </SwiperSlide>{" "}
         </Swiper>
